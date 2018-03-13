@@ -81,4 +81,5 @@ $(window).on('load', function(){
     typeSpeed: 100,
     loop: true
   });
+  $('typed-cursor').hide();
 });
