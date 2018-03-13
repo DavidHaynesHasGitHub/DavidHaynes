@@ -84,8 +84,7 @@ $(window).on('load', function(){
   $(".slide-nav-btn").css("right", "2%");
   //------- [start type.js script]-----//
   $(".write").typed({
-    strings: ["Hey, My Name Is David Haynes ",
-      "Web Designer And <br> Front End Developer",
+    strings: ["Web Designer And <br> Front End Developer",
       "I Live In Vancouver BC",
       "This Is My Personal Site",
       "Don't Hesitate To <br> Contact Me"
