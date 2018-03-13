@@ -84,10 +84,8 @@ $(window).on('load', function(){
   $(".slide-nav-btn").css("right", "2%");
   //------- [start type.js script]-----//
   $(".write").typed({
-    strings: ["Web Designer And <br> Front End Developer",
-      "I Live In Vancouver BC",
-      "This Is My Personal Site",
-      "Don't Hesitate To <br> Contact Me"
+    strings: ["Front End Developer", "Backend Developer",
+      "UI /UX Designer", "Graphic Designer"
     ],
 
     typeSpeed: 100,

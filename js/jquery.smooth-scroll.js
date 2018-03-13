@@ -196,12 +196,12 @@
 
       if (options.delegateSelector !== null) {
         this
-        .off('click.smoothscroll', options.delegateSelector)
-        .on('click.smoothscroll', options.delegateSelector, clickHandler);
+          .off('click.smoothscroll', options.delegateSelector)
+          .on('click.smoothscroll', options.delegateSelector, clickHandler);
       } else {
         this
-        .off('click.smoothscroll')
-        .on('click.smoothscroll', clickHandler);
+          .off('click.smoothscroll')
+          .on('click.smoothscroll', clickHandler);
       }
 
       return this;
@@ -335,4 +335,4 @@
   // default options
   $.fn.smoothScroll.defaults = defaults;
 
-})(jQuery);
+}(jQuery));
