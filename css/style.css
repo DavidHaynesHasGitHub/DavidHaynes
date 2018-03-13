@@ -434,14 +434,14 @@ section {
 -----------------------------------------*/
 .about{
   background: #e9eaed;
-  padding-top: 80px;
-  padding-bottom: 80px
+  padding-top: 60px;
+  padding-bottom: 60px
 }
 .about .about-info{
   margin-bottom: 20px
 }
 .about .about-info .carousel {
-  height: 250px
+  height: 375px
 }
 .about .about-info .hobby {
   background: #fff;
