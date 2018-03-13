@@ -12,13 +12,13 @@ $(function(){
   var  up             = $('.up i');
   var  body           = $("html, body");
 
-  //-------------- Right-Nav [position]--------------//
+
   rNav.css("top", (home.height() - rNav.height()) / 2);
-  //-------------- Home-info [position]--------------//
+
   hInfo.css("top", (home.height() - hInfo.height()) / 2);
 
 
-  //------- start slide-nav [btn action and style]-----//
+  //-- slide-nav btn action and style --//
   navBtn.on('click', function(){
     $(this).toggleClass(navBtnActive);
     nav.toggleClass(navActive);
@@ -36,7 +36,7 @@ $(function(){
       nav.css("background", "rgba(0, 0, 0, 0.38)");
     }
   });
-  //------------ [end slide-nav-btnt]---------//
+
 
   //------- materialize carousel -------------//
   $('.carousel').carousel();
@@ -45,7 +45,7 @@ $(function(){
   body.on('click', function(){
     $(this).css("overflow", "auto");
   });
-  //------- arrow up to site -------------//
+  //------- arrow up  -------------//
   up.on('click', function() {
     body.animate({
       scrollTop: -690
@@ -60,16 +60,6 @@ $(function(){
       up.css("right", "-200px");
     }
   });
-  /*--------------[blog-carousel]-----------*/
-  $('.blog .owl-carousel').owlCarousel({
-    loop: true,
-    autoplay: true,
-    margin: 15,
-    responsive: {
-      0: {items: 1},
-      600: {items: 2},
-      1000: {items: 3}
-    }});
 
 
   // [smoothScroll]
@@ -82,7 +72,7 @@ $(window).on('load', function(){
   $('.preloader').fadeOut(1000);
   $("body").css("overflow-y", "auto");
   $(".slide-nav-btn").css("right", "2%");
-  //------- [start type.js script]-----//
+  //-- type.js script--//
   $(".write").typed({
     strings: ["Front End Developer", "Backend Developer",
       "UI /UX Designer", "Graphic Designer"
@@ -91,6 +81,4 @@ $(window).on('load', function(){
     typeSpeed: 100,
     loop: true
   });
-  $(".typed-cursor").hide();
-  // -------[end type.js script] ------ //
 });
