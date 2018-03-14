@@ -78,7 +78,7 @@
       <a href="https://www.visualcv.com/david-haynes"<p>My Resume</p>
     </div>
   </div>
-
+  <!--  end slide-nav-header ====-->
   <ul>
     <li><a href="#home" ><span class="icon icon-ribbon"></span> Home</a></li>
     <li><a href="#about" ><span class="icon icon-profile-male"></span> About</a></li>
@@ -476,7 +476,7 @@
        <!-- start form -->
        <div class="col s12 m12 l6">
          <div class="info">
-           <form method="POST" action="https://formspree.io/david@davidhaynes.io"></form>
+           <form method='POST' name='myemailform' action='https://formspree.io/david@davidhaynes.io'>
              <div class="input">
                <input type="text" placeholder="Name" name="name">
                <span class="icon icon-profile-male"></span>
@@ -488,11 +488,11 @@
              </div>
 
              <div class="subject">
-               <textarea placeholder="Message" type="text" name='message'></textarea>
+               <textarea placeholder="Subject" type="text" name='message'></textarea>
                <span class="icon icon-pencil"></span>
              </div>
 
-             <button class="submit h-style" type='submit' ><span class="icon icon-pricetags"></span>Submit Now</button>
+             <button class="submit h-style" type='submit' value='send'><span class="icon icon-pricetags"></span>Submit Now</button>
            </form>
          </div>
        </div>
