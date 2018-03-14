@@ -55,20 +55,20 @@
                 <!-- portfolio -->
     <li><a href="#portfolio" class="tooltipped" data-position="left" data-delay="20" data-tooltip="Portfolio"><i class="material-icons">collections</i></a></li>
 
-                <!-- ====* contact *=== -->
+                <!-- contact  -->
     <li><a href="#contact" class="tooltipped" data-position="left" data-delay="20" data-tooltip="Contact"><i class="material-icons">send</i></a></li>
   </ul>
 </div>
 
-<!-- ========== *// [Slide nav btn] //* ========== -->
+<!-- Slide nav btn -->
  <div class="slide-nav-btn">
     <span></span>
   </div>
 
 
-<!-- ========== *// [Section (1)] slide nav //* ========== -->
+<!-- slide nav -->
 <section class="slide-nav">
- <!-- ===== slide-nav-header ======-->
+ <!--  slide-nav-header -->
   <div class="slide-nav-header">
     <div class="container">
       <img style="width: 200px;"src="images/FullLogo.png" alt="">
@@ -78,7 +78,7 @@
       <a href="https://www.visualcv.com/david-haynes"<p>My Resume</p>
     </div>
   </div>
-  <!-- ==== end slide-nav-header ====-->
+
   <ul>
     <li><a href="#home" ><span class="icon icon-ribbon"></span> Home</a></li>
     <li><a href="#about" ><span class="icon icon-profile-male"></span> About</a></li>
@@ -93,7 +93,6 @@
 
 <!-- Home -->
 <section class="home center-align" id="home">
-
   <div style="z-index: 1"class="content">
     <div  id="particles-js"></div>
     <div class="container">
@@ -477,23 +476,23 @@
        <!-- start form -->
        <div class="col s12 m12 l6">
          <div class="info">
-           <form>
+           <form method='POST' name='myemailform' action'php/submit-form.php'>
              <div class="input">
-               <input type="text" placeholder="Name" name="">
+               <input type="text" placeholder="Name" name="name">
                <span class="icon icon-profile-male"></span>
              </div>
 
              <div class="input">
-               <input type="email" placeholder="E-mail" name="">
+               <input type="email" placeholder="E-mail" name="email">
                <span class="icon icon-envelope"></span>
              </div>
 
              <div class="subject">
-               <textarea placeholder="Subject"></textarea>
+               <textarea placeholder="Message" type="text" name='message'></textarea>
                <span class="icon icon-pencil"></span>
              </div>
 
-             <button class="submit h-style"><span class="icon icon-pricetags"></span>Submit Now</button>
+             <button class="submit h-style" type='submit' ><span class="icon icon-pricetags"></span>Submit Now</button>
            </form>
          </div>
        </div>
