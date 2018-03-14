@@ -414,7 +414,7 @@ section {
   bottom: 12%;
   color: #FFBB06;
   font-size: 32px;
-  animation: moveing 1.5s infinite linear
+  animation: moveing 10.0s 
 }
 .home .fa-angle-double-down:hover{
   animation: paused;

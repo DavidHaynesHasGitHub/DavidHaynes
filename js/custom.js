@@ -40,7 +40,7 @@ $(function(){
 
   //------- materialize carousel -------------//
   $('.carousel').carousel();
-  //----------- modal [services-section] -----//
+  //-- services-section --//
   $('.modal').modal();
   body.on('click', function(){
     $(this).css("overflow", "auto");
@@ -74,7 +74,7 @@ $(window).on('load', function(){
   $(".slide-nav-btn").css("right", "2%");
   //-- type.js script--//
   $(".write").typed({
-    strings: ["Front End Developer", "Backend Developer",
+    strings: ["Frontend Developer", "Backend Developer",
       "UI /UX Designer", "Graphic Designer"
     ],
     typeSpeed: 100,
