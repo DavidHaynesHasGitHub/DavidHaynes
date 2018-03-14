@@ -77,9 +77,9 @@ $(window).on('load', function(){
     strings: ["Front End Developer", "Backend Developer",
       "UI /UX Designer", "Graphic Designer"
     ],
-
     typeSpeed: 100,
-    loop: true
+    loop: true,
   });
-  $('typed-cursor').hide();
+  $(".typed-cursor").hide();
+// -------[end type.js script] ------ //
 });
