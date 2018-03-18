@@ -447,6 +447,8 @@ section {
   background: #fff;
   padding-top: 25px;
   padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .about .about-info .hobby span {
   color: #1a1a1a;
