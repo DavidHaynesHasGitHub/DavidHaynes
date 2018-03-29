@@ -550,6 +550,11 @@ section {
 /*-----------------------------------------
               start services
 -----------------------------------------*/
+.logo {
+  height: 5em;
+  widows: 5em;
+}
+
 .services{
   padding-top: 100px;
   padding-bottom: 100px;
